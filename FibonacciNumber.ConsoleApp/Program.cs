@@ -9,8 +9,6 @@ string VerifyNumber(int inputNumber)
         0, 1
     };
 
-    var array = fibonacci.ToArray();
-
     while (inputNumber > currentNumber)
     {
         var lastTwoNumbers = fibonacci.GetRange(fibonacci.Count - 2, 2);
